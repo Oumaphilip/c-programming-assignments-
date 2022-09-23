@@ -1,0 +1,18 @@
+//a program for eligibility to vote
+#include<iostream>
+using namespace std;
+int main()
+{
+int age;
+court<<"Enter your age"<<endl;
+con>>age>>endl;
+if(age>=18)
+{
+court<<"You are eligible to vote"<<endl;
+}
+else
+{
+court<<"not eligible to vote"<<endl;
+}
+return 0;
+}
