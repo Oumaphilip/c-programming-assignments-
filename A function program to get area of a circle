@@ -1,0 +1,18 @@
+//function for area of a circle
+#include<iostream>
+using namespace std;
+float circle (int r);
+int main (){
+int radius
+cout<<"Enter the radius"<<endl;
+cin>>radius;
+Area=circle (radius)
+cout<<"The area is"<<Area<<endl;
+}
+return 0;
+}
+float circle (int r){
+float area;
+area=3.142*r*r;
+return area;
+}
