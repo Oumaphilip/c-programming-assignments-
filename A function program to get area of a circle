@@ -14,5 +14,6 @@ return 0;
 float circle (int r){
 float area;
 area=3.142*r*r;
+}
 return area;
 }
