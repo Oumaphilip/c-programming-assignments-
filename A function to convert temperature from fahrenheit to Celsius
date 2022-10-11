@@ -1,0 +1,18 @@
+//a function to convert from fahrenheit to Celsius
+#include<iostream>
+using namespace std;
+float FahrenheittoCelsius(float);
+int main ()
+{
+float Fahrenheit,celsius;
+cout<<"Enter the temperature in Fahrenheit:";
+cin>>fahrenheit;
+celsius=FahrenheittoCelsius(float);
+cout<<endlfahrenheit<<"\370F="<<celsius<<\370C";
+cout<<endl;
+return 0;
+}
+float FahrenheittoCelsius(float f)
+{float c;
+c=(f-32)/1.8;
+}
