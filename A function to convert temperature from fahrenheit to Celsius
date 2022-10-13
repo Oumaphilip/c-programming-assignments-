@@ -13,6 +13,7 @@ cout<<endl;
 return 0;
 }
 float FahrenheittoCelsius(float f)
-{float c;
+{
+float c;
 c=(f-32)/1.8;
 }
